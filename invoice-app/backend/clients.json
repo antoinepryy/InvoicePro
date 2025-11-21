@@ -1,0 +1,23 @@
+{
+  "predefinedClients": [
+    {
+      "id": "lorraine-chauffage",
+      "name": "LORRAINE CHAUFFAGE",
+      "address": "860 Rue du Lieutenant Yves le Saux\n57685 Augny\nFrance",
+      "createdAt": "2025-11-21",
+      "active": true
+    },
+    {
+      "id": "califrance",
+      "name": "Califrance",
+      "address": "34 bis rue Jules Ferry\n54150 Avril\nFrance",
+      "createdAt": "2025-11-21",
+      "active": true
+    }
+  ],
+  "config": {
+    "autoSave": true,
+    "sortBy": "name",
+    "note": "Liste des clients prédéfinis pour accélérer la saisie de factures"
+  }
+}

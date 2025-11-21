@@ -1,0 +1,156 @@
+{
+  "templateSettings": {
+    "pageSize": {
+      "width": 595.28,
+      "height": 841.89
+    },
+    "fonts": {
+      "regular": "Helvetica",
+      "bold": "HelveticaBold"
+    }
+  },
+  "fields": {
+    "clientName": {
+      "x": 320,
+      "y": 690,
+      "size": 11,
+      "font": "bold",
+      "color": [0, 0, 0],
+      "maxWidth": 250,
+      "note": "Nom client plus bas"
+    },
+    "clientAddress": {
+      "x": 320,
+      "y": 670,
+      "size": 9,
+      "font": "regular",
+      "color": [0, 0, 0],
+      "lineHeight": 10,
+      "maxWidth": 250,
+      "note": "Adresse client plus bas"
+    },
+    "invoiceNumber": {
+      "x": 430,
+      "y": 780,
+      "size": 10,
+      "font": "bold",
+      "color": [0, 0, 0],
+      "maxWidth": 150,
+      "note": "Numéro de facture en haut à droite"
+    },
+    "invoiceDate": {
+      "x": 430,
+      "y": 760,
+      "size": 10,
+      "font": "regular",
+      "color": [0, 0, 0],
+      "maxWidth": 150,
+      "note": "Date de facture en haut à droite"
+    },
+    "services": {
+      "startY": 580,
+      "lineHeight": 18,
+      "columns": {
+        "description": {
+          "x": 44,
+          "size": 9,
+          "font": "regular",
+          "color": [0, 0, 0],
+          "maxWidth": 250,
+          "note": "Description des prestations"
+        },
+        "quantity": {
+          "x": 320,
+          "size": 9,
+          "font": "regular",
+          "color": [0, 0, 0],
+          "maxWidth": 50,
+          "align": "center",
+          "note": "Quantité"
+        },
+        "unitPrice": {
+          "x": 420,
+          "size": 9,
+          "font": "regular",
+          "color": [0, 0, 0],
+          "maxWidth": 70,
+          "align": "right",
+          "note": "Prix unitaire HT"
+        },
+        "total": {
+          "x": 520,
+          "size": 9,
+          "font": "regular",
+          "color": [0, 0, 0],
+          "maxWidth": 70,
+          "align": "right",
+          "note": "Total HT ligne"
+        }
+      }
+    },
+    "totals": {
+      "totalHT": {
+        "x": 400,
+        "y": 280,
+        "size": 10,
+        "font": "regular",
+        "color": [0, 0, 0],
+        "align": "left",
+        "note": "Total HT repositionné"
+      },
+      "totalTVA": {
+        "x": 400,
+        "y": 260,
+        "size": 10,
+        "font": "regular",
+        "color": [0, 0, 0],
+        "align": "left",
+        "note": "Montant TVA repositionné"
+      },
+      "totalTTC": {
+        "x": 400,
+        "y": 240,
+        "size": 12,
+        "font": "bold",
+        "color": [0, 0, 0],
+        "align": "left",
+        "note": "Total TTC repositionné"
+      }
+    }
+  },
+  "templateAnalysis": {
+    "logoPosition": {
+      "x": 44,
+      "y": 700,
+      "note": "Logo Antoine Perry en haut à gauche"
+    },
+    "clientBox": {
+      "x": 479,
+      "y": 510,
+      "width": 400,
+      "height": 120,
+      "note": "Rectangle pour les infos client"
+    },
+    "footerInfo": {
+      "y": 50,
+      "note": "Informations micro-entreprise en bas"
+    },
+    "pageInfo": {
+      "x": 550,
+      "y": 50,
+      "note": "Page 1/1 en bas à droite"
+    }
+  },
+  "calibration": {
+    "note": "Positions calibrées selon l'analyse du template PDF Antoine Perry",
+    "coordinateSystem": "PDF coordinates (0,0 = bottom-left)",
+    "units": "points (1 point = 1/72 inch)",
+    "pageHeight": 841.89,
+    "analysisDate": "2025-11-21",
+    "tips": {
+      "y_adjustment": "Plus y est grand, plus l'élément est haut sur la page",
+      "x_adjustment": "Plus x est grand, plus l'élément est à droite",
+      "font_sizes": "Basé sur les tailles du template original"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "predefinedServices": [
+    {
+      "id": "maintenance-site-web",
+      "description": "Maintenance site internet",
+      "defaultPrice": 80,
+      "unit": "mois",
+      "category": "Web",
+      "active": true
+    },
+    {
+      "id": "google-ads",
+      "description": "Gestion campagne Google Ads",
+      "defaultPrice": 150,
+      "unit": "mois",
+      "category": "Marketing",
+      "active": true
+    },
+    {
+      "id": "hebergement-web",
+      "description": "Hébergement web",
+      "defaultPrice": 25,
+      "unit": "mois",
+      "category": "Web",
+      "active": true
+    },
+    {
+      "id": "consultation-technique",
+      "description": "Consultation technique",
+      "defaultPrice": 120,
+      "unit": "heure",
+      "category": "Conseil",
+      "active": true
+    },
+    {
+      "id": "formation",
+      "description": "Formation équipe",
+      "defaultPrice": 800,
+      "unit": "jour",
+      "category": "Formation",
+      "active": true
+    }
+  ],
+  "config": {
+    "autoSave": true,
+    "sortBy": "category",
+    "defaultQuantity": 1,
+    "note": "Services prédéfinis pour accélérer la création de factures"
+  }
+}
