@@ -30,22 +30,22 @@
       "note": "Adresse client plus bas"
     },
     "invoiceNumber": {
-      "x": 430,
+      "x": 470,
       "y": 780,
       "size": 10,
       "font": "bold",
       "color": [0, 0, 0],
       "maxWidth": 150,
-      "note": "Numéro de facture en haut à droite"
+      "note": "Numéro de facture en haut à droite (plus à droite)"
     },
     "invoiceDate": {
-      "x": 430,
+      "x": 470,
       "y": 760,
       "size": 10,
       "font": "regular",
       "color": [0, 0, 0],
       "maxWidth": 150,
-      "note": "Date de facture en haut à droite"
+      "note": "Date de facture en haut à droite (plus à droite)"
     },
     "services": {
       "startY": 580,

@@ -13,6 +13,13 @@
       "address": "34 bis rue Jules Ferry\n54150 Avril\nFrance",
       "createdAt": "2025-11-21",
       "active": true
+    },
+    {
+      "id": "sgs",
+      "name": "S.G.S",
+      "address": "5 rue de la forêt\n57220 Gomelange\nFrance",
+      "createdAt": "2025-11-21",
+      "active": true
     }
   ],
   "config": {

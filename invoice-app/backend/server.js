@@ -111,7 +111,7 @@ app.post('/api/generate-invoice', async (req, res) => {
     // Numéro et date de facture
     if (invoiceNumber && config.invoiceNumber) {
       const field = config.invoiceNumber;
-      firstPage.drawText(invoiceNumber, {
+      firstPage.drawText(`N° ${invoiceNumber}`, {
         x: field.x || 450,
         y: field.y || height - 180,
         size: field.size || 10,

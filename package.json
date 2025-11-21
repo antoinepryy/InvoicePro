@@ -1,0 +1,24 @@
+{
+  "name": "invoicepro",
+  "version": "1.0.0",
+  "main": "generate-sgs-invoices.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoinepryy/InvoicePro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/antoinepryy/InvoicePro/issues"
+  },
+  "homepage": "https://github.com/antoinepryy/InvoicePro#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
